@@ -9,4 +9,8 @@ Route::get('/health-check', function () {
     return response()->json(['status' => 'ok']);
 });
 
+Route::get('/not-health-check', function () {
+    throw new \Exception('Not health check');
+});
+
 Route::get('/', fn (): View => view('welcome'));
