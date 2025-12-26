@@ -15,6 +15,10 @@
     <a href="https://packagist.org/packages/nunomaduro/laravel-starter-kit"><img src="https://img.shields.io/packagist/l/nunomaduro/laravel-starter-kit" alt="License"></a>
 </p>
 
+<p>Creador y fundador de Astro-Tickets </p>
+<img width="652" height="363" alt="image" src="https://github.com/user-attachments/assets/1621b654-bc25-4c9e-80c2-3ce472cc5aef" />
+
+
 **Laravel Starter Kit** is an ultra-strict, type-safe [Laravel](https://laravel.com) skeleton engineered for developers who refuse to compromise on code quality. This opinionated starter kit enforces rigorous development standards through meticulous tooling configuration and architectural decisions that prioritize type safety, immutability, and fail-fast principles.
 
 ## Why This Starter Kit?
