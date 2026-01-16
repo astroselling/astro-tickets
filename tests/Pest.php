@@ -22,6 +22,13 @@ pest()->extend(TestCase::class)
     })
     ->in('Browser', 'Feature', 'Unit');
 
+pest()->extend(TestCase::class)
+    ->use(RefreshDatabase::class)
+    ->beforeEach(function (): void {
+        $this->seed(\Database\Seeders\TicketingSeeder::class);
+    })
+    ->in('Feature/Ticketing');
+
 expect()->extend('toBeOne', fn () => $this->toBe(1));
 
 function something(): void
